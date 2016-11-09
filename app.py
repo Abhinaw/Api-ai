@@ -82,26 +82,15 @@ def makeWebhookResult(data):
 
     print("Response:")
     print(speech)
-    
-       kik_message = [
-        {
-            "type": "text",
-            "body": "Here's the picture of item " + item
-        },
-        {
-            "type": "picture",
-            "picUrl": "https://raw.githubusercontent.com/svet4/apiai-kik-rich-formatting/master/pictures/item" + item +".png"
-        }
-    ]
-    print(json.dumps(kik_message))
 
     return {
         "speech": speech,
         "displayText": speech,
-        "data": {"facebook": {"Test from webhhok"}},
+         "data": {"facebook":{<"Hello Facebook">}},
         # "contextOut": [],
         "source": "apiai-weather-webhook-sample"
     }
+
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
