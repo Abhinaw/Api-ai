@@ -98,11 +98,10 @@ def makeWebhookResult(data):
     return {
         "speech": speech,
         "displayText": speech,
-        "data": {"kik": kik_message},
+        "data": {"facebook": {"Test from webhhok"}},
         # "contextOut": [],
         "source": "apiai-weather-webhook-sample"
     }
-
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
