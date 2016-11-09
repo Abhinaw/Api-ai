@@ -83,7 +83,7 @@ def makeWebhookResult(data):
     print("Response:")
     print(speech)
 
-    fb_message="<b>Hello</b>"
+    fb_message="Hello"
 
     return {
         "speech": speech,
