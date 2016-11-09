@@ -88,7 +88,7 @@ def makeWebhookResult(data):
     return {
         "speech": speech,
         "displayText": speech,
-        "data": {"facebook":"facebook": {
+        "data": {"facebook":{
         "attachment": {
         "type": "template",
         "payload": {"template_type” : “button”, “text” : “what do you want?"}
