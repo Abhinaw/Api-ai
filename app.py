@@ -83,22 +83,12 @@ def makeWebhookResult(data):
     print("Response:")
     print(speech)
 
- fb_message = [
-        {
-            "type": "text",
-            "body": "Here's the picture of item " + item
-        },
-        {
-            "type": "picture",
-            "picUrl": "https://raw.githubusercontent.com/svet4/apiai-kik-rich-formatting/master/pictures/item" + item +".png"
-        }
-    ]
-
+   fb_message="<b>Hello</b>"
 
     return {
         "speech": speech,
         "displayText": speech,
-      #  "data": {"facebook": fb_message},
+        "data": {"facebook": fb_message},
         # "contextOut": [],
         "source": "apiai-weather-webhook-sample"
     }
