@@ -93,7 +93,8 @@ def makeWebhookResult(data):
         "type": "template",
         "payload": {"template_type" : "button", "text" : "what do you want?"}
        }
-      },
+        }
+        },
         # "contextOut": [],
         "source": "apiai-weather-webhook-sample"
     }
