@@ -91,13 +91,12 @@ def makeWebhookResult(data):
          "data": {
          "facebook": {
           "attachment":{
-          "type": "image",
+          "type": "template",
           "payload": {
-          "url": "https://www.pluris.fr/pj/6/6_16308_1473965154.jpg"
+          "template_type" : "button", "text" : "what do you want?"
         }
       }
-    }
-  },
+    },
         # "contextOut": [],
         "source": "apiai-weather-webhook-sample"
     }
