@@ -97,8 +97,7 @@ def makeWebhookResult(data):
             }
            }
           }
-         }    
-        },
+         },
         # "contextOut": [],
         "source": "apiai-weather-webhook-sample"
     }
