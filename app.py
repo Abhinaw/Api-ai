@@ -88,11 +88,11 @@ def makeWebhookResult(data):
     return {
         "speech": speech,
         "displayText": speech,
-        "data": {"facebook": "data": {
-      "facebook": {
-      "attachement": {
-        "type": "image",
-        "payload": {
+         "data": {
+         "facebook": {
+          "attachement": {
+          "type": "image",
+          "payload": {
           "url": "https://www.pluris.fr/pj/6/6_16308_1473965154.jpg"
         }
       }
