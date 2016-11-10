@@ -91,9 +91,10 @@ def makeWebhookResult(data):
          "data": {
          "facebook": {
           "attachment":{
-          "type": "template",
+         # "type": "template",
           "payload": {
-          "template_type" : "button", "text" : "what do you want?"
+         # "template_type" : "button", "text" : "what do you want?"
+           "text":"what do you want?"   
             }
            }
           }
