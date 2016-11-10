@@ -89,7 +89,7 @@ def makeWebhookResult(data):
         "speech": speech,
         "displayText": speech,
         "data": {"facebook": "data": {
-    "facebook": {
+      "facebook": {
       "attachement": {
         "type": "image",
         "payload": {
