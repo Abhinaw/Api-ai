@@ -83,14 +83,10 @@ def makeWebhookResult(data):
     print("Response:")
     print(speech)
 
-    fb_message="Hello"
-
     return {
-       # "speech": speech,
+        "speech": speech,
         "displayText": speech,
-        # "data":{
-       #  "text":"hello, world!"
-      # },
+        # "data": data,
         # "contextOut": [],
         "source": "apiai-weather-webhook-sample"
     }
@@ -102,4 +98,3 @@ if __name__ == '__main__':
     print "Starting app on port %d" % port
 
     app.run(debug=False, port=port, host='0.0.0.0')
-
